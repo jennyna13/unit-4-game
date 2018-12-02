@@ -11,13 +11,12 @@ $(document).ready(function(){
     var crystal4Num;
 
 
-
 function gameNumbers () {
     targetNumber = Math.floor(Math.random()*70) + 30;
-    crystal1Num = Math.floor(Math.random()*12) + 1;
-    crystal2Num = Math.floor(Math.random()*12) + 1;
-    crystal3Num = Math.floor(Math.random()*12) + 1;
-    crystal4Num = Math.floor(Math.random()*12) + 1;
+    crystal1Num = Math.floor(Math.random()*20) + 1;
+    crystal2Num = Math.floor(Math.random()*20) + 1;
+    crystal3Num = Math.floor(Math.random()*20) + 1;
+    crystal4Num = Math.floor(Math.random()*20) + 1;
 }
 
 function gameStarts () {
