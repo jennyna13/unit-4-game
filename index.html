@@ -1,0 +1,83 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collectors Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+</head>
+<audio controls autoplay="autoplay" loop = "loop" preload="auto">
+    <source src="lalaSong .mp3" type="audio/ogg">
+    <embed src="lalaSong .mp3" autostart=true loop=true>
+  </audio>
+
+<body background="assets/images/background.jpg" class ="background">
+
+    <h1>Crystal Collector Game!</h1>
+
+    <div id= "instruction">
+
+    <ol>
+        <li>
+        You will be given a random number at the start of the game.
+        </li>
+    <br>
+        <li>
+        There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
+        </li>
+    <br>
+        <li>
+        You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.
+        </li>   
+    <br>
+        <li>
+        The value of each crystal is hidden from you until you click on it. 
+        </li>
+    <br>
+        <li>
+        Each time when the game starts, the game will change the values of each crystal. 
+        </li>
+    </ol>
+
+    </div>
+    <br>
+    <hr>
+    
+    <div class = "number">
+    <h2>Number to Guess:</h2><br><span id = "number"></span>
+    </div>
+
+    <h2> Wins: <span id = "wins"></span></h2>
+    <br>
+    <h2>Losses: <span id ="losses"></span></h2>
+    
+    <br>
+
+    <div class="total-score">
+        <h2>Your total score is:</h2><br><span id="total-score"></span>
+        </div>
+    
+
+   <div class = "img">
+        <img src="assets/images/crystal1.jpg" 
+        class="crystals" id=" crystal1" >
+
+        <img src="assets/images/crystal2.jpg" class="crystals" id="crystal2"> 
+
+        <img src="assets/images/crystal3.jpg" class="crystals" id="crystal3" >
+
+        <img src="assets/images/crystal4.jpg" class="crystals" id="crystal4">
+    </div>
+
+
+<script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

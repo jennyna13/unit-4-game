@@ -1,0 +1,72 @@
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: azure;
+}
+
+h2 {
+    font-family: 'Neucha', cursive;
+    color: azure
+}
+
+li {
+    color: azure;
+    font-size: 18px;
+}
+
+.number {
+    float: right;
+    margin-right: 150px;
+}
+
+.total-score {
+    float: right;
+    margin-right: 150px; 
+}
+
+#number {
+    color: azure;
+    font-family: 'Neucha', cursive;
+    font-size: 50px;
+    font-weight: 20px;
+}
+
+#total-score {
+    color: azure;
+    font-family: 'Neucha', cursive;
+    font-size: 50px;
+    font-weight: 20px;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.crystals {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#crystal1:hover {
+    opacity: 0.5;
+}
+#crystal2:hover{
+    opacity: 0.5;
+}
+#crystal3:hover{
+    opacity: 0.5;
+}
+#crystal4:hover{
+    opacity: 0.5;
+}
+
+
+#number, #wins, #losses, #total-score {
+    color: azure;
+}
+
