@@ -10,6 +10,15 @@ $(document).ready(function(){
     var crystal3Num;
     var crystal4Num;
 
+    function playOh() {
+        var oh = document.getElementById("oh");
+        oh.play();
+    }
+
+    function playLaugh() {
+        var laugh = document.getElementById("laugh");
+        laugh.play();
+    }
 
 function gameNumbers () {
     targetNumber = Math.floor(Math.random()*70) + 30;
@@ -47,11 +56,13 @@ function resetGame (){
 function Win (){
     wins ++;
     $("#wins").text(" " + wins);
+    playOh();
 }
 
 function Loss (){
     losses ++;
     $("#losses").text(" " + losses);
+    playLaugh();
 }
 
 
