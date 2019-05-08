@@ -1,6 +1,4 @@
 # Magic Crystal
-https://jennyna13.github.io/unit-4-game/
-
 <ul>
 
 <li>This is a guessing game using numbers where the player will guess with numbers.</li>
