@@ -1,6 +1,6 @@
 # unit-4-game
 
-<h1>Title</h1><h3>Magic Crystal</h3>
+<h3>Magic Crystal</h3>
 
 Deployed: https://jennyna13.github.io/unit-4-game/
 
